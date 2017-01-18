@@ -15,6 +15,15 @@
 		A2EB4D6A1E246ACB002D6D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EB4D681E246ACB002D6D9E /* LaunchScreen.storyboard */; };
 		A2EB4D751E246ACB002D6D9E /* AbstractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4D741E246ACB002D6D9E /* AbstractFactoryTests.m */; };
 		A2EB4D801E246ACB002D6D9E /* AbstractFactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4D7F1E246ACB002D6D9E /* AbstractFactoryUITests.m */; };
+		A2EB4D911E246BF6002D6D9E /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4D901E246BF6002D6D9E /* BrandingFactory.m */; };
+		A2EB4D941E246CB7002D6D9E /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4D931E246CB7002D6D9E /* AcmeBrandingFactory.m */; };
+		A2EB4D971E246CCB002D6D9E /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4D961E246CCB002D6D9E /* SierraBrandingFactory.m */; };
+		A2EB4D9A1E246EC7002D6D9E /* AcmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4D991E246EC7002D6D9E /* AcmeView.m */; };
+		A2EB4D9D1E24707F002D6D9E /* SierraView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4D9C1E24707F002D6D9E /* SierraView.m */; };
+		A2EB4DA01E2470A8002D6D9E /* AcmeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4D9F1E2470A8002D6D9E /* AcmeButton.m */; };
+		A2EB4DA61E247AE6002D6D9E /* SierraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4DA51E247AE6002D6D9E /* SierraButton.m */; };
+		A2EB4DA91E247B6A002D6D9E /* AcmeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4DA81E247B6A002D6D9E /* AcmeToolbar.m */; };
+		A2EB4DAC1E247B86002D6D9E /* SierraToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB4DAB1E247B86002D6D9E /* SierraToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,24 @@
 		A2EB4D7B1E246ACB002D6D9E /* AbstractFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EB4D7F1E246ACB002D6D9E /* AbstractFactoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryUITests.m; sourceTree = "<group>"; };
 		A2EB4D811E246ACB002D6D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EB4D8F1E246BF6002D6D9E /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
+		A2EB4D901E246BF6002D6D9E /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
+		A2EB4D921E246CB7002D6D9E /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
+		A2EB4D931E246CB7002D6D9E /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		A2EB4D951E246CCB002D6D9E /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
+		A2EB4D961E246CCB002D6D9E /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
+		A2EB4D981E246EC7002D6D9E /* AcmeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeView.h; sourceTree = "<group>"; };
+		A2EB4D991E246EC7002D6D9E /* AcmeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeView.m; sourceTree = "<group>"; };
+		A2EB4D9B1E24707F002D6D9E /* SierraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraView.h; sourceTree = "<group>"; };
+		A2EB4D9C1E24707F002D6D9E /* SierraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraView.m; sourceTree = "<group>"; };
+		A2EB4D9E1E2470A8002D6D9E /* AcmeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeButton.h; sourceTree = "<group>"; };
+		A2EB4D9F1E2470A8002D6D9E /* AcmeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeButton.m; sourceTree = "<group>"; };
+		A2EB4DA41E247AE6002D6D9E /* SierraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SierraButton.h; path = ../SierraButton.h; sourceTree = "<group>"; };
+		A2EB4DA51E247AE6002D6D9E /* SierraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SierraButton.m; path = ../SierraButton.m; sourceTree = "<group>"; };
+		A2EB4DA71E247B6A002D6D9E /* AcmeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AcmeToolbar.h; path = ../AcmeToolbar.h; sourceTree = "<group>"; };
+		A2EB4DA81E247B6A002D6D9E /* AcmeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AcmeToolbar.m; path = ../AcmeToolbar.m; sourceTree = "<group>"; };
+		A2EB4DAA1E247B86002D6D9E /* SierraToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraToolbar.h; sourceTree = "<group>"; };
+		A2EB4DAB1E247B86002D6D9E /* SierraToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +128,8 @@
 		A2EB4D591E246ACB002D6D9E /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				A2EB4D8E1E246AFC002D6D9E /* Product */,
+				A2EB4D8D1E246AD8002D6D9E /* Factory */,
 				A2EB4D5D1E246ACB002D6D9E /* AppDelegate.h */,
 				A2EB4D5E1E246ACB002D6D9E /* AppDelegate.m */,
 				A2EB4D601E246ACB002D6D9E /* ViewController.h */,
@@ -138,6 +167,38 @@
 				A2EB4D811E246ACB002D6D9E /* Info.plist */,
 			);
 			path = AbstractFactoryUITests;
+			sourceTree = "<group>";
+		};
+		A2EB4D8D1E246AD8002D6D9E /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A2EB4D8F1E246BF6002D6D9E /* BrandingFactory.h */,
+				A2EB4D901E246BF6002D6D9E /* BrandingFactory.m */,
+				A2EB4D921E246CB7002D6D9E /* AcmeBrandingFactory.h */,
+				A2EB4D931E246CB7002D6D9E /* AcmeBrandingFactory.m */,
+				A2EB4D951E246CCB002D6D9E /* SierraBrandingFactory.h */,
+				A2EB4D961E246CCB002D6D9E /* SierraBrandingFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		A2EB4D8E1E246AFC002D6D9E /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				A2EB4D981E246EC7002D6D9E /* AcmeView.h */,
+				A2EB4D991E246EC7002D6D9E /* AcmeView.m */,
+				A2EB4D9B1E24707F002D6D9E /* SierraView.h */,
+				A2EB4D9C1E24707F002D6D9E /* SierraView.m */,
+				A2EB4D9E1E2470A8002D6D9E /* AcmeButton.h */,
+				A2EB4D9F1E2470A8002D6D9E /* AcmeButton.m */,
+				A2EB4DA41E247AE6002D6D9E /* SierraButton.h */,
+				A2EB4DA51E247AE6002D6D9E /* SierraButton.m */,
+				A2EB4DA71E247B6A002D6D9E /* AcmeToolbar.h */,
+				A2EB4DA81E247B6A002D6D9E /* AcmeToolbar.m */,
+				A2EB4DAA1E247B86002D6D9E /* SierraToolbar.h */,
+				A2EB4DAB1E247B86002D6D9E /* SierraToolbar.m */,
+			);
+			name = Product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +337,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2EB4D9D1E24707F002D6D9E /* SierraView.m in Sources */,
 				A2EB4D621E246ACB002D6D9E /* ViewController.m in Sources */,
+				A2EB4D971E246CCB002D6D9E /* SierraBrandingFactory.m in Sources */,
+				A2EB4DA61E247AE6002D6D9E /* SierraButton.m in Sources */,
+				A2EB4D941E246CB7002D6D9E /* AcmeBrandingFactory.m in Sources */,
+				A2EB4DA91E247B6A002D6D9E /* AcmeToolbar.m in Sources */,
+				A2EB4D911E246BF6002D6D9E /* BrandingFactory.m in Sources */,
+				A2EB4DAC1E247B86002D6D9E /* SierraToolbar.m in Sources */,
+				A2EB4D9A1E246EC7002D6D9E /* AcmeView.m in Sources */,
 				A2EB4D5F1E246ACB002D6D9E /* AppDelegate.m in Sources */,
 				A2EB4D5C1E246ACB002D6D9E /* main.m in Sources */,
+				A2EB4DA01E2470A8002D6D9E /* AcmeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
